@@ -1,6 +1,6 @@
 import React from 'react';
 
-import OrdinalFrame from "semiotic/lib/OrdinalFrame"
+import OrdinalFrame from '@semiotic/lib/OrdinalFrame';
 
 const frameProps = {
   data: [{ user: "Jason", tweets: 10, retweets: 5, favorites: 15 },
