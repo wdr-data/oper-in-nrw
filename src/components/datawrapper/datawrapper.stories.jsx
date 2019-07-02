@@ -4,5 +4,5 @@ import DWChart from 'react-datawrapper-chart';
 
 storiesOf('Datawrapper', module)
     .add('default', () => (
-        <DWChart title="Chart" src="//datawrapper.dwcdn.net/rjRUb/7/" />
+        <DWChart aria-label="Text representation of visual chart" src="//datawrapper.dwcdn.net/rjRUb/7/" />
 ));
