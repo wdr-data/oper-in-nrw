@@ -7,7 +7,7 @@ const Header = ({heroImage = "", heroAlt = "", heroCredit = ""}) => {
     const hasHero = heroImage !== "";
     return (
         <header className={classNames(styles.header, { [styles.hasHero]: hasHero })}>
-            <Logo className={styles.logo} />
+            <Logo className={styles.logo} onClick={()=> window.open("https://www1.wdr.de/index.html")}/>
             {hasHero && <>
                 <img className={styles.hero} src={heroImage} alt={heroAlt}/>
                 {heroCredit !== "" && <span className={styles.credit}>{heroCredit}</span>}
