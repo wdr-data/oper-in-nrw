@@ -1,7 +1,7 @@
 import React from "react";
 
 const Webtrekk = ({ cg1, cg2, cg3, cg4, cg5, publishedAt }) => {
-  const id = "882049745744921";
+  const id = process.env.GATSBY_WEBTREKK_ENV === "production" ? "968797372740766" : "882049745744921";
   const searchParams = new URLSearchParams();
   var title = [];
   searchParams.append("tz", "2");
