@@ -1,7 +1,7 @@
 import React from 'react';
 import data from '../../../data/zauberfloete.csv';
 
-import OrdinalFrame from "semiotic/lib/OrdinalFrame"
+import OrdinalFrame from 'semiotic/lib/OrdinalFrame';
 
 const frameProps = {
   data: data,
